@@ -10,7 +10,7 @@ int calculate_ohms_law(){
   current = volts / resistance;
   power = current * volts;
   printf("\nThe current (I) is %g Amps\n", current);
-  printf("The power (W) is %g Watts\n", power);
+  printf("The power (P) is %g Watts\n", power);
   return 0;
 }
 int main(){
